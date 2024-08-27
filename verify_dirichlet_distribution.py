@@ -5,7 +5,6 @@ from scipy import stats
 # Parameters
 NUM_SIMULATIONS = 100000
 NUM_TABLE_COMPARISONS = 10
-STARTING_SCORE = 0.2    # Your starting bad score percentage
 STARTING_ALPHA = [0.3,.2,.5]    # Parameters to Dirichlet distribution
 
 def generate_board_result():
